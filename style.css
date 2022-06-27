@@ -1,0 +1,47 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh ;
+}
+
+.advice-box{
+    width: 40%;
+    background:  hsl(217, 19%, 24%);
+    border: 1px solid hsl(217, 19%, 24%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    position: fixed;
+}
+
+.advice-id{
+    padding: 15px;
+    color: hsl(150, 100%, 66%);
+    text-transform: capitalize;
+}
+
+.advice{
+    font-size: 1.25rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.dice-btn{
+    background: hsl(150, 100%, 66%);
+    border: 1px solid hsl(150, 100%, 66%);
+    border-radius: 100%;
+    padding: 15px;
+    position: relative;
+    bottom: -25px;
+    cursor: pointer;
+}
